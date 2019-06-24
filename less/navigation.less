@@ -1,1 +1,27 @@
 // Navigation code here
+nav{
+    background-color: @nav-bg;
+    .flex-mix();
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    h1{
+        font-size: 4rem;
+        padding: 1rem 0;
+        max-width: 100%;
+    }
+
+    div{
+        padding: 1rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        
+        a{
+            font-size: 1.6rem;
+            text-decoration: none;
+            color: @nav-font;            
+            padding: 0 1.6rem;
+         }
+    }
+}
